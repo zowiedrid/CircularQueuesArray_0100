@@ -22,5 +22,12 @@ class Queues { //membuat class queue
 				cout << "Queue penuh" << endl;
 				return;
 			}
+
+			//cek apakah queue kosong
+			if (front == -1) { //kondisi jika queue kosong
+							front = 0;
+							rear = 0;
+			}
+			
 		}
 };
