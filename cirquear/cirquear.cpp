@@ -65,7 +65,16 @@ class Queues { //membuat class queue
 			}
 		}
 
-		void display() {
+		void display() { //membuat fungsi display
+			int front_pos = front;
+			int rear_pos = rear;
+
+			//cek apakah queue kosong
+			if (front == -1) { //kondisi jika queue kosong
+										cout << "Queue kosong" << endl;
+										return;
+						}
+			cout << "Elemen dalam queue: ";
 
 		}
 };
