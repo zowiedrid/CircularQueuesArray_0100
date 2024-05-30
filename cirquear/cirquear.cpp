@@ -9,4 +9,12 @@ class Queues { //membuat class queue
 			front = -1;
 			rear = -1;
 		}
+
+		void insert(int add_item) { //membuat fungsi insert
+			int num;
+			cout << "Masukkan angka: ";
+			cin >> num;
+			cout << endl;
+
+		}
 };
