@@ -91,6 +91,13 @@ class Queues { //membuat class queue
 					front_pos++;
 				}
 				front_pos = 0;
+
+				//iterasi dari 0 ke rear_pos
+				while (front_pos <= rear_pos) {
+					cout << queue_array[front_pos] << " ";
+					front_pos++;
+				}
+				cout << endl;
 			}
 			
 
