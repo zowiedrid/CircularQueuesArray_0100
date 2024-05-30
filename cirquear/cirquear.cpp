@@ -54,6 +54,15 @@ class Queues { //membuat class queue
 							front = -1;
 							rear = -1;
 						}
+			else {
+				//jika front berada di posisi terakhir array, kembalikan ke awal
+				if (front == max - 1) {
+					front = 0;
+				}
+				else {
+					front = front + 1;
+				}
+			}
 			
 
 		}
