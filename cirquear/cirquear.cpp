@@ -40,4 +40,9 @@ class Queues { //membuat class queue
 			queue_array[rear] = num;
 			
 		}
+
+		void remove() { // membuat fungsi remove
+			
+
+		}
 };
