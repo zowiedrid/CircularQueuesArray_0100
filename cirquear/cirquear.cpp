@@ -103,3 +103,12 @@ class Queues { //membuat class queue
 
 		}
 };
+
+int main() {
+	Queues q;
+	char ch;
+
+	while (true) {
+
+	}
+}
