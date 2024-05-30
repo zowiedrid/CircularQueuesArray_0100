@@ -82,7 +82,16 @@ class Queues { //membuat class queue
 					cout << queue_array[front_pos] << " ";
 					front_pos++;
 				}
+				cout << endl;
 						}
+			else {
+				//iterasi dari front_pos ke max
+				while (front_pos <= max - 1) {
+					cout << queue_array[front_pos] << " ";
+					front_pos++;
+				}
+				front_pos = 0;
+			}
 			
 
 		}
