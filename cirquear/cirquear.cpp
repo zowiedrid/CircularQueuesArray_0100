@@ -63,7 +63,9 @@ class Queues { //membuat class queue
 					front = front + 1;
 				}
 			}
-			
+		}
+
+		void display() {
 
 		}
 };
