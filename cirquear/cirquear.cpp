@@ -47,6 +47,14 @@ class Queues { //membuat class queue
 							cout << "Queue kosong" << endl;
 							return;
 			}
+			cout << "Elemen yang dihapus: " << queue_array[front] << endl;
+
+			//cek jika antrian hanya memiliki satu elemen
+			if (front == rear) { //kondisi jika antrian hanya memiliki satu elemen
+							front = -1;
+							rear = -1;
+						}
+			
 
 		}
 };
