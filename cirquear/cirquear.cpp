@@ -76,5 +76,14 @@ class Queues { //membuat class queue
 						}
 			cout << "Elemen dalam queue: ";
 
+			//jika front_pos lebih kecil dari rear_pos, iterasi dari front_pos ke rear_pos
+			if (front_pos <= rear_pos) { //kondisi jika front_pos lebih kecil dari rear_pos
+				while (front_pos <= rear_pos) {
+					cout << queue_array[front_pos] << " ";
+					front_pos++;
+				}
+						}
+			
+
 		}
 };
