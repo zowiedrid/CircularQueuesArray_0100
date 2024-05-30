@@ -42,7 +42,11 @@ class Queues { //membuat class queue
 		}
 
 		void remove() { // membuat fungsi remove
-			
+			//cek apakah queue kosong
+			if (front == -1) { //kondisi jika queue kosong
+							cout << "Queue kosong" << endl;
+							return;
+			}
 
 		}
 };
