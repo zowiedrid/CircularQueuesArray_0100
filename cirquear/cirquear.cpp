@@ -16,5 +16,11 @@ class Queues { //membuat class queue
 			cin >> num;
 			cout << endl;
 
+
+			//cek apakah queue penuh
+			if ((front == 0 && rear == max - 1) || (front == rear + 1)) { //kondisi jika queue penuh
+				cout << "Queue penuh" << endl;
+				return;
+			}
 		}
 };
